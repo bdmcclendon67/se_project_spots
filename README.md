@@ -12,7 +12,9 @@ Hello world! My name is Benjamin McClendon, a software engineering student at Tr
 
 **Technology Used**
 
-In order to complete this project, I utilized a laptop computer, VS Code Editor and a program called Figma. In order to successfully complete this project, I had to apply my learned knowledge of HTML structure and CSS styling (including flexbox/grid positionings, and media queries for responsive design) in order to bring this project to life. 
+-HTML
+-CSS
+-Responsive Design
   
 **Figma**  
   
@@ -33,6 +35,15 @@ This is the profile section I designed using code that was replicated from Figma
 
 ![Pictures](./images/Full%20page%20SPOTS%20desktop%20view.png)
 
-This is the desktop iew for the Spots project. In order to achieve this, I gained a solid understanding of grid positioning, proper use of margins and padding, and flexbox positioning. 
+This is the desktop view for the Spots project. In order to achieve this, I gained a solid understanding of grid positioning, proper use of margins and padding, and flexbox positioning. 
+
+## Deployment
+
+This project is deployed to GitHub Pages. 
+
+
+## Project Pitch Video
+
+A video describing my project.
   
 Good luck and have fun!
