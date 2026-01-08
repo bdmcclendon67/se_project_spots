@@ -41,9 +41,13 @@ This is the desktop view for the Spots project. In order to achieve this, I gain
 
 This project is deployed to GitHub Pages. 
 
+Deployment Link: https://bdmcclendon67.github.io/se_project_spots/
+
 
 ## Project Pitch Video
 
 A video describing my project.
+
+Video Link: https://youtu.be/KAycJbg4Pyk
   
 Good luck and have fun!
