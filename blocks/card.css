@@ -6,7 +6,8 @@
 .card__content {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center  
+    
 }
 
 
@@ -17,11 +18,13 @@
     object-fit: cover;
     display: block;
     border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 .card__like-button {
     background-image: url(../images/Heart-like-button.svg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 23px;
     height: 20px;
     border: none;
@@ -51,12 +54,10 @@
 
     .card {
         max-width: 288px;
-        margin-bottom: 20px;
     }
 
 
     .card__image {
-        width: 100%;
         max-width: 288px;
         height: 288px;
     }
