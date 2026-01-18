@@ -1,8 +1,8 @@
 .header {
-    background-color: #FFFFFF;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .header__logo {
