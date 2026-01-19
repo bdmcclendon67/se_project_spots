@@ -22,6 +22,7 @@
   background-image: url(../images/Heart-like-button.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: transparent;
   width: 23px;
   height: 20px;
   border: none;
