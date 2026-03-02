@@ -1,0 +1,81 @@
+.modal {
+  visibility: hidden;
+  position: fixed;
+  background-color: #00000080;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__close-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 32px;
+  right: 50px;
+  opacity: 0.4;
+  background-image: url(../images/Close-Button.png);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__container {
+  position: relative;
+  max-width: 730px;
+  max-height: 408px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 32px 50px;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.modal__input {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  margin: 8px 0 32px;
+  border-radius: 8px;
+  border: 1px solid #212121;
+  padding: 16px 12px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.modal__label {
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 1.1;
+  margin: 0 0 32px;
+}
+
+.modal__submit-btn {
+  background-color: #212121;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fcf5e5;
+  border-radius: 8px;
+  border: none;
+  padding: 18px 58px;
+  cursor: pointer;
+}
+
+.modal__input::placeholder {
+  color: #212121;
+  opacity: 0.3;
+}

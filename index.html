@@ -125,6 +125,52 @@
       <footer class="footer">
         <p class="footer__copyright">2025 &copy Spots</p>
       </footer>
-    </div>
+      <div class="modal">
+        <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button class="modal__close-btn" type="button" img src="/images/Close-Button.png"></button>
+          <h2 class="modal__title">Edit Profile</h2>
+          <form class="modal__form">
+            <label class="modal__label" for="profile-name-input">Name</label>
+            <input
+              class="modal__input"
+              type="text"
+              id="profile-name-input"
+              placeholder="Type your name"
+            />
+            <label class="modal__label" for="profile-description-input">Description</label>
+            <input
+              class="modal__input"
+              type="text"
+              id="profile-description-input"
+              placeholder="Describe yourself"
+               />
+            <button class="modal__submit-btn" type="submit">Save</button>
+          </div>
+        </div>
+         <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button class="modal__close-btn" type="button" img src="/images/Close-Button.png"></button>
+          <h2 class="modal__title">New Post</h2>
+          <form class="modal__form">
+            <label class="modal__label" for="card-image-input">Image link</label>
+            <input
+              class="modal__input"
+              type="url"
+              id="card-image-input"
+              placeholder="Paste a link to the picture"
+            />
+            <label class="modal__label" for="card-caption-input">Caption</label>
+            <input
+              class="modal__input"
+              type="text"
+              id="card-caption-input"
+              placeholder="Type your caption"
+               />
+            <button class="modal__submit-btn" type="submit">Save</button>
+          </div>
+        </div>
+      </div>
+      
   </body>
 </html>
