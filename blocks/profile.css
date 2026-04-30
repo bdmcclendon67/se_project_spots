@@ -39,6 +39,8 @@
   line-height: 1;
   font-weight: 500;
   color: #212121;
+  cursor: pointer;
+  padding: 0;
 }
 
 .profile__edit-btn:hover {
