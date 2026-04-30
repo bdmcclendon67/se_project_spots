@@ -13,7 +13,7 @@ function closeEditProfileModal() {
 editProfileBtn.addEventListener("click", function() {
 
     nameInput.value = profileNameElement.textContent;
-    jobInput.value = profileJobElement.textContent;
+    descriptionInput.value = profileDescriptionElement.textContent;
 
     openEditProfileModal();
 
