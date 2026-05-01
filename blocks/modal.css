@@ -22,7 +22,7 @@
   transition: opacity 0.5s ease, visibility 0s linear 0s;
 }
 
-.modal__is-opened .modal__container {
+.modal_is-opened .modal_container {
   transform: scale(1);
   opacity: 1;
 }
