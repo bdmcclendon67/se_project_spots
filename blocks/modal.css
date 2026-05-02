@@ -36,6 +36,7 @@
   top: 32px;
   right: 50px;
   opacity: 0.4;
+  background-color: transparent;
   background-image: url(../images/Close-Button.png);
   background-repeat: no-repeat;
   border: none;
@@ -107,6 +108,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .modal__submit-btn {
+    width: 100%;
+  }
 
   .modal__container {
     padding: 22px 12px 12px;
