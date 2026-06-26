@@ -79,6 +79,7 @@ function getCardElement(data) {
 
     cardImageEl.addEventListener("click", () => {
           previewModalImage.src = data.link;
+          previewModalImage.alt = data.name;
           previewModalCaption.textContent = data.name;  
 
           openModal(previewModal);
@@ -137,11 +138,8 @@ editProfileForm.addEventListener('submit', handleProfileFormSubmit);
 
 
 function handleAddCardSubmit(evt) {
-    evt.preventDefault ();
+    evt.preventDefault();
     
-    
-    const newImageUrl = imageInput.value;
-    const newCaption = captionInput.value;
 
     const inputValues = {
         name: captionInput.value,

@@ -64,7 +64,9 @@
         </section>
       </main>
       <footer class="footer">
+          <div class="page__section">
         <p class="footer__copyright">2025 &copy; Spots</p>
+        </div>
       </footer>
     </div>
     <div class="modal" id="edit-profile-modal">
@@ -113,6 +115,7 @@
             name="image"
             id="card-image-input"
             placeholder="Paste a link to the picture"
+            required
           />
           <label class="modal__label" for="card-caption-input">Caption</label>
           <input
@@ -121,6 +124,7 @@
             name="caption"
             id="card-caption-input"
             placeholder="Type your caption"
+            required
           />
           <button class="modal__submit-btn" type="submit">Save</button>
         </form>
