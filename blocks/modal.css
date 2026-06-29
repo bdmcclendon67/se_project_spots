@@ -143,30 +143,13 @@
   opacity: 0.3;
 }
 
-@media screen and (max-width: 627px) {
-/* Placed below the 480px media query to avoid being overwritten. */
-  .modal__close_type_preview {
-    top: -48px;
-    right: 0;
-  }
-
-  .modal__image {
-    max-width: unset;
-  }
-
-  .modal__caption {
-    line-height: 1.2;
-    font-size: 16px;
-    width: 159px;
-    height: 19px;
-  }
-}
 
 @media screen and (max-width: 480px) {
 
   .modal__submit-btn {
     width: 100%;
   }
+  
 
   .modal__container {
     padding: 22px 12px 12px;
@@ -183,6 +166,25 @@
 
   .modal__input {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  
+  .modal__close-btn_type_preview {
+    top: -48px;
+    right: 0;
+  }
+
+  .modal__image {
+    max-width: unset;
+  }
+
+  .modal__caption {
+    line-height: 1.2;
+    font-size: 16px;
+    width: 159px;
+    height: 19px;
   }
 }
 
