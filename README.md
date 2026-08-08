@@ -46,6 +46,9 @@ Deployment Link: https://bdmcclendon67.github.io/se_project_spots/
 
 A video describing my project:
 
-[Project Pitch Video](https://drive.google.com/file/d/1O2BITs7713ZHah4xXPn47jCzmqyQul92/view?usp=drive_link)
+[Project Pitch Video 1](https://drive.google.com/file/d/1O2BITs7713ZHah4xXPn47jCzmqyQul92/view?usp=drive_link)
+[Project Pitch Video 2](https://www.loom.com/share/3198eda4c5704c5299d0864f2b1ff9af) 
+
+*Loom was not allowing me to download the video to move to Google Drive without a subscription. Also, I turned the camera on when recording, but for some reason it kept sharing my screen. Let me know if I need to do it again.*
 
 Good luck and have fun!

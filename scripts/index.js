@@ -23,7 +23,7 @@ const initialCards = [{
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/5-photo-by-van-anh-nguyen-from-pexels.jpg",
 },
 {
-    name: "Mountatin house",
+    name: "Mountain house",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
 },
 ];
@@ -45,7 +45,9 @@ const newPostForm = document.querySelector('#new-post-form');
 const imageInput = newPostForm.querySelector('#card-image-input');
 const captionInput = newPostForm.querySelector('#card-caption-input');
 
+
 const previewModal = document.querySelector("#preview-modal");
+const cardSubmitButton = previewModal.querySelector(".modal__submit-btn");
 const previewModalImage = previewModal.querySelector(".modal__image");
 const previewModalCaption = previewModal.querySelector(".modal__caption");
 const previewModalCloseBtn = previewModal.querySelector(".modal__close-btn");
@@ -101,7 +103,7 @@ editProfileBtn.addEventListener("click", function() {
 
     nameInput.value = profileNameElement.textContent;
     descriptionInput.value = profileDescriptionElement.textContent;
-
+    resetValidation(editProfileModal, [nameInput, descriptionInput]);
     openModal(editProfileModal);
 
 });
@@ -112,7 +114,8 @@ editProfileCloseBtn.addEventListener("click", function() {
 
 
 newPostBtn.addEventListener("click", function() {
-    openModal(newPostModal);
+    resetValidation(newPostModal, [imageInput, captionInput]);
+    openModal(newPostModal)
 });
 
 newPostCloseBtn.addEventListener("click", function() {
@@ -152,6 +155,7 @@ function handleAddCardSubmit(evt) {
     cardsList.prepend(cardElement);
 
     evt.target.reset();
+    disableButton(cardSubmitButton);
     closeModal(newPostModal);
 } 
 
