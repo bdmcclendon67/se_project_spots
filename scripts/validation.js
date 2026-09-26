@@ -23,7 +23,7 @@ const hideInputError = (formElement, inputElement, config) => {
 };
 
 
-const checkInputValidity = (formElement, inputElement) => {
+const checkInputValidity = (formElement, inputElement, config) => {
     if (!inputElement.validity.valid) {
         showInputError(formElement, inputElement, inputElement.validationMessage, config);
     } else {
@@ -60,15 +60,14 @@ function setEventListeners(formElement, config) {
     const inputList = Array.from(formElement.querySelectorAll(config.inputSelector));
     const buttonElement = formElement.querySelector(config.submitButtonSelector);
 
-    console.log(inputList);
-    console.log(buttonElement);
+
 
     toggleButtonState(inputList, buttonElement, config);
 
     inputList.forEach((inputElement) => {
         inputElement.addEventListener("input", function () {
             checkInputValidity(formElement, inputElement, config);
-            toggleButtonState(inputList, buttonElement, config);
+            toggleButtonState(inputList, buttonElement);
         });
     });
 }

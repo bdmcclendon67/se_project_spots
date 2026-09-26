@@ -115,9 +115,7 @@ function getCardElement(data) {
   return cardElement;
 }
 
-const modal = document.querySelector(".modal");
 
-const closeButton = modal.querySelector(".modal__close-btn");
 
 let handleEscape;
 
@@ -203,9 +201,7 @@ function handleAddCardSubmit(evt) {
     link: imageInput.value,
   };
 
-  console.log(imageInput.value);
 
-  console.log(captionInput.value);
 
   const cardElement = getCardElement(inputValues);
 
